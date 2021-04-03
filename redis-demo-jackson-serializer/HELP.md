@@ -1,6 +1,9 @@
 This application uses jackson serializer instead of default JDK serializer
 
 
+https://github.com/spring-projects/spring-session/issues/348
+
+
 Paths:
 Get By Id
 http://localhost:8080/employees/3
