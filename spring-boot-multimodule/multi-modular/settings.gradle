@@ -1,0 +1,6 @@
+rootProject.name = 'multi-modular'
+include ':multimodular-api'
+include ':multimodular-client'
+include ':multimodular-service'
+
+

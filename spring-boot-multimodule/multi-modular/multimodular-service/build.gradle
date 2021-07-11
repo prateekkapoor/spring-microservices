@@ -1,0 +1,19 @@
+plugins {
+  id "org.springframework.boot" version "2.5.2"
+}
+
+dependencies {
+  //implementation project(':multimodular-common')
+  implementation project(':multimodular-client')
+  implementation project(':multimodular-api')
+  implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  runtimeOnly 'com.h2database:h2'
+  implementation 'org.springframework.boot:spring-boot-starter-tomcat'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  implementation 'org.springframework.boot:spring-boot-starter-tomcat'
+ }
+
+
+
+
+

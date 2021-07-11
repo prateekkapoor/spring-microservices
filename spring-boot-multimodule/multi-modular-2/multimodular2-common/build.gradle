@@ -1,0 +1,7 @@
+dependencies {
+  //implementation project(':multimodular-common')
+  
+  
+  // ... more dependencies
+}
+

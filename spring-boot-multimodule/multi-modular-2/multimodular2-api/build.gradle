@@ -1,0 +1,8 @@
+dependencies {
+  implementation project(':multimodular2-service')
+  implementation project(':multimodular2-common')
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  
+  // ... more dependencies
+}
+
